@@ -26,16 +26,9 @@ export const dataJobs = [
         id: "3",
         title: "Protafolio Personal",
         image: "https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png",
-        description: "proyecto creado en reactJs",
+        description: "Este Proyecto fue creado con ReactJs, el diseño fue completamente de mi autoria",
         age: "01-09-2023 || 29-04-2023"
-    },
-    {
-        id: "4",
-        title: "Protafolio Personal",
-        image: "https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png",
-        description: "proyecto creado en reactJs",
-        age: "01-09-2023 || 29-04-2023"
-    },
+    }
 ]
 
 export const dataKills = [

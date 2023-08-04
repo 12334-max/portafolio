@@ -14,6 +14,7 @@ function App() {
                 <ProyectList />
             </div>
         </div>
+        <Footer />
     </>
 
 }

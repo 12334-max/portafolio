@@ -3,34 +3,24 @@ import { MdWhatsapp, MdAlternateEmail } from 'react-icons/md'
 function Footer() {
     return (
         <>
-            <footer className=" bg-slate-950 text-white text-center grid place-content-center gap-5 border">
-                <div className="w-96 border">
-                    <strong>!CONTACTAME!</strong>
-                    <p className="text-center">Soy una persona proactiva, con habilidades de trabajar en equipo y dispuesto a asumir nuevos desafíos.
-                        Si necesitas un programador entusiasta y comprometido, estaré encantado de colaborar contigo.</p>
+            <footer className=" bg-slate-950 gap-8">
+                <div className='grid place-content-center pb-8'>
+                    <p className='text-lg text-center py-4 text-slate-400 font-bold'>
+                        Contactame!
+                    </p>
+                    <p className='text-slate-700 w-96 text-center'>
+                        Soy una persona proactiva, con habilidades de trabajar en equipo y dispuesto a asumir nuevos desafíos.
+                        Si necesitas un programador entusiasta y comprometido, estaré encantado de colaborar contigo.
+                    </p>
                 </div>
-
-                <div className='border w-96'>
-                    <div className="w-auto grid grid-cols-2">
-                        <div className='border w-2'>
-                            <MdWhatsapp size={25} />
-                        </div>
-                        <div>
-                            <strong className='border'>
-                                Whatsapp:
-                            </strong> 55 4057 8129
-                        </div>
+                <div className='flex justify-between items-center mx-96 pb-8'>
+                    <div className='w-96 text-slate-600'>
+                        <MdWhatsapp size={25} color='blue' />
+                        <p><span className='text-lg text-slate-400 font-bold'> Whatsapp: </span>  55 4057 8129</p>
                     </div>
 
-                    <div className="w-auto grid grid-cols-2">
-                        <div>
-                            <MdAlternateEmail size={25} />
-                        </div>
-                        <div>
-                            <strong className='border'>
-                                Correo:
-                            </strong> javi18082020@outlook.es
-                        </div>
+                    <div className="w-96 text-slate-600 flex items-baseline">
+                        <p> <MdAlternateEmail size={25} color='blue' /> <span className='text-lg text-slate-400 font-bold'>Correo:</span> javi18082020@outlook.es</p>
                     </div>
                 </div>
             </footer >
