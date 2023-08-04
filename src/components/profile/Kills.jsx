@@ -1,12 +1,29 @@
+import { useContext } from 'react'
+import { ImStarFull } from "react-icons/im";
+import { Context } from '../../context/Context'
+
 function Kill() {
+    const { kills } = useContext(Context)
+
+    // function iter(p) {
+    //     while (p) {
+    //         <ImStarFull />
+    //     }
+    // }
+
     return (
-        <div className='rounded-xl p-4 mb-10 shadow-2xl border shadow-slate-2000 bg-slate-950'>
+        <div className='rounded-xl p-4 mb-10 shadow-2xl border w-60 md:w-60 lg:w-auto shadow-slate-2000 bg-slate-950'>
             <h3 className='text-2xl pb-3'>Habilidades</h3>
-            <ul className='text-zinc-400'>
-                <li>JAVA Spring</li>
-                <li>Flutter</li>
-                <li>Laravel 9</li>
-                <li>React</li>
+            <ul className='text-zinc-400 md:columns-1 lg:columns-2 '>
+                {kills.map((k) => (
+                    <li className='hover:-translate-y-1 hover:scale-100 duration-300'>{k.title}
+                        <div className='h-3 max-w-xl'>
+                            <div className='w-full h-full rounded-full bg-gray-800'>
+                                <div className='h-full rounded-full bg-blue-600 text-end text-[0.5rem]' style={{ "width": k.level }}> <strong>{k.level}</strong></div>
+                            </div>
+                        </div>
+                    </li>
+                ))}
             </ul>
         </div>
     )
