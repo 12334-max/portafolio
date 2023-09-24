@@ -4,15 +4,8 @@ import { Context } from '../../context/Context'
 
 function Kill() {
     const { kills } = useContext(Context)
-
-    // function iter(p) {
-    //     while (p) {
-    //         <ImStarFull />
-    //     }
-    // }
-
     return (
-        <div className='rounded-xl p-4 mb-10 shadow-2xl border w-60 md:w-60 lg:w-auto shadow-slate-2000 bg-slate-950'>
+        <div className='rounded-xl p-4 mb-10 shadow-2xl border w-auto md:w-60 lg:w-auto shadow-slate-2000 bg-slate-950'>
             <h3 className='text-2xl pb-3 font-bold'>Habilidades</h3>
             <ul className='text-zinc-400 md:columns-1 lg:columns-2 '>
                 {kills.map((k) => (

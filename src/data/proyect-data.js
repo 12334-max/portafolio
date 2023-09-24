@@ -26,7 +26,7 @@ export const dataJobs = [
         id: "3",
         title: "Protafolio Personal",
         image: "https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png",
-        description: "Este Proyecto fue creado con ReactJs, el diseño fue completamente de mi autoria",
+        description: "Este Proyecto fue creado con ReactJs y Tailwind CSS, el diseño fue completamente de mi autoria",
         age: "01-09-2023 || 29-04-2023"
     }
 ]
