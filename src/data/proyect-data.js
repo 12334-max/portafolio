@@ -41,7 +41,14 @@ export const dataJobs = [
         title: "API C# ASP.NET",
         image: "https://adriancs.com/wp-content/uploads/2020/08/aspnet.jpg",
         description: "En la empresa CAFI tu casa financiera se implemento APIs de distintas funcionalidades incluye la API de la App móvil, con conexiones a SQL Server y MongoDB",
-        age: "10-03-2024 || 12-07-2023"
+        age: "01-02-2024 || Actual"
+    },
+    {
+        id: "6",
+        title: "DashBoard en AngularTS",
+        image: "https://i.morioh.com/2023/08/15/dd926482.webp",
+        description: "Se realizó matenimiento a aplicaciones web creadas en AngularTS",
+        age: "01-02-2024 || Actual"
     }
 ]
 
