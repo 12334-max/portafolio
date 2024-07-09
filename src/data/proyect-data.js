@@ -28,6 +28,20 @@ export const dataJobs = [
         image: "https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png",
         description: "Este Proyecto fue creado con ReactJs y Tailwind CSS, el diseño fue completamente de mi autoria",
         age: "01-09-2023 || 29-04-2023"
+    },
+    {
+        id: "4",
+        title: "App móvil en Kotlin",
+        image: "https://th.bing.com/th/id/OIP.RJWOmWLAcIJn5A5v3Tki0wHaIA?rs=1&pid=ImgDetMain",
+        description: "App para gestores de cobranza de parte de CAFI tu casa financiera, la app tiene un alcance de dar seguimiento a visitas domiciliarias que se sincroniza con una API en ASP.NET",
+        age: "10-03-2024 || 12-07-2023"
+    },
+    {
+        id: "5",
+        title: "API C# ASP.NET",
+        image: "https://adriancs.com/wp-content/uploads/2020/08/aspnet.jpg",
+        description: "En la empresa CAFI tu casa financiera se implemento APIs de distintas funcionalidades incluye la API de la App móvil, con conexiones a SQL Server y MongoDB",
+        age: "10-03-2024 || 12-07-2023"
     }
 ]
 
@@ -49,27 +63,22 @@ export const dataKills = [
     },
     {
         id: "4",
-        title: "Laravel 9",
-        level: "60%",
+        title: "C# ASP.NET",
+        level: "80%",
     },
     {
         id: "5",
-        title: "HTML5",
+        title: "AngularTS",
         level: "90%",
     },
     {
         id: "6",
-        title: "MySql",
-        level: "70%",
+        title: "Kotlin Jetpack Compose",
+        level: "90%",
     },
     {
         id: "7",
         title: "JavaScript",
         level: "75%",
-    },
-    {
-        id: "8",
-        title: "CSS",
-        level: "70%",
     }
 ]
