@@ -1,6 +1,6 @@
 import React from 'react'
 import { MdSaveAlt } from "react-icons/md";
-import cv from '../../assets/CvJavierPerez.pdf'
+import cv from '../../assets/CV-Javier-Perez.pdf'
 
 function DownloandCv() {
     return (
