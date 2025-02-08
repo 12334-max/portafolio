@@ -5,9 +5,11 @@ import cv from '../../assets/CV-Javier-Perez.pdf'
 function DownloandCv() {
     return (
         <>
-            <div className='grid place-items-center w-60 md:w-60 lg:w-auto'>
-                <a className='grid place-items-center' href={cv} download><p className='text-lg'>Descarga Mi CV</p>
-                    <button className='hover:animate-bounce h-16 px-3'><MdSaveAlt size={25} /></button></a>
+            <div className='flex gap-3 pb-5'>
+                <a className='text-slate-400 justify-items-center' href={cv} download>
+                    <p className='text-lg '>Descargar CV</p>
+                    <MdSaveAlt className='hover:animate-bounce' size={25} />
+                </a>
             </div>
         </>
     )
