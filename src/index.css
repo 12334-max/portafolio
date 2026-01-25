@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+ :root {
+  /* Backgrounds */
+  --background: 241 245 249; /* slate-100 */
+  --foreground: 15 23 42;    /* slate-900 */
+
+  --card: 255 255 255;       /* white (cards suelen ir más limpias) */
+  --card-foreground: 15 23 42;
+
+  /* UI */
+  --primary: 59 130 246;     /* blue-500 */
+  --primary-foreground: 255 255 255;
+
+  --muted: 226 232 240;      /* slate-200 */
+  --muted-foreground: 100 116 139; /* slate-500 */
+
+  --border: 226 232 240;     /* slate-200 */
+  --input: 226 232 240;
+  --ring: 59 130 246;
+}
+
+
+  .dark {
+    --background: 15 23 42;
+    --foreground: 248 250 252;
+
+    --card: 30 41 59;
+    --card-foreground: 248 250 252;
+
+    --primary: 96 165 250;
+    --primary-foreground: 15 23 42;
+
+    --muted: 30 41 59;
+    --muted-foreground: 148 163 184;
+
+    --border: 51 65 85;
+    --input: 51 65 85;
+    --ring: 96 165 250;
+  }
+}
