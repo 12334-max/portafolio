@@ -5,7 +5,7 @@ interface ButtonLayoutProps {
     children: ReactNode,
 }
 
-export function ButtonLayout({ children }: ButtonLayoutProps) {
+export function ButtonLayout({ }: ButtonLayoutProps) {
     return (<>
         <button className="bg">children</button>
     </>);

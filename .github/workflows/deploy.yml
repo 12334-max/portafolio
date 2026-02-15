@@ -1,4 +1,4 @@
-name: Despliegar en GitHub Pages
+name: 1. Despliegar en GitHub Pages
 
 on:
   push:
