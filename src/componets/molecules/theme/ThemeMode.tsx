@@ -10,7 +10,7 @@ export function ThemeMode() {
 
 
     return (<>
-        <div className="bg-slate-100 fixed top-3 right-3 p-1 border-2 rounded-lg">
+        <div className="bg-slate-100 fixed top-3 right-0 p-1 border-l border-y rounded-l-full sm:rounded-xl sm:border-2">
             {theme === 'dark' && <Sun color='yellow' onClick={toggleTheme} />}
             {theme === 'light' && <Moon color='gray' onClick={toggleTheme} />}
         </div>
